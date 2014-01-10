@@ -1,0 +1,14 @@
+Declare float fmoneyValue 
+Declare int imoneyValue 
+Declare int array coinageValues = {25, 10, 5, 1} 
+Declare int array countOfCoins 
+
+Get input fmoneyValue
+imoneyValue = fmoneyValue converted to integer
+
+for (i = 0; i < coinageValues.length; i++) {
+    countOfCoins[i] = imoneyValue/coinageValues[i];
+    imoneyValue = imoneyValue - (countOfCoins[i] * coinageValues[i]);   
+        }
+Display all values for countOfCoins array
+
