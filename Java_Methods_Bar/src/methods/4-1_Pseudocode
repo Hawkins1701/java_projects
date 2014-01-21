@@ -1,0 +1,17 @@
+Pseudocode for "Find Int" Method 
+
+input integer valueToFind; 
+input array values{[random numbers]}; 
+
+looptest---  while ( i< values.length; i=0; i++;) {
+  if (valueToFind <> values[i];) {
+     looptest restarts;
+}
+  else if (valueToFind = values[i]) {
+    display (valueToFind + " is at index value " + i;); 
+}
+  else {
+    display (valueToFind + " was unfortunately not found."
+} 
+}
+    
